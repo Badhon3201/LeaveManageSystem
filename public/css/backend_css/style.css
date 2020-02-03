@@ -1,0 +1,68 @@
+
+/*navogation*/
+#navigation{
+    padding:15px 10px;
+}
+#navbarSupportedContent a{
+    padding:0 30px;
+    color:white;
+}
+/* Sidebar Navigation */
+#sidebar {
+    display: block;
+    float: left;
+    position: relative;
+    width: 220px;
+    z-index: 16;
+    background-color: #041B1B;
+}
+#sidebar ul {
+    list-style: none;
+    margin: 0px 0 0;
+    padding: 0;
+    position: absolute;
+    width: 220px;
+}
+#sidebar ul li {
+    background-color:#041B1B;
+    display: block;
+    position: relative;
+}
+#sidebar ul li a {
+    padding: 10px 0 10px 15px;
+    display: block;
+    color: white;
+    height: 50px;
+	text-decoration: none;
+}
+#sidebar ul li a:hover {
+    background-color:gray;
+}
+#sidebar ul li a i {
+    margin-right: 10px;
+}
+.hero{
+    text-align: center;
+    height: 100px;
+    padding: 100px;
+}
+.hero a{
+    background-color: brown;
+    font-weight: bold;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+.forms{
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.table{
+    padding-top: 50px;
+    padding-left: 20px;
+    overflow: scroll;
+}
+.settings{
+    padding-top: 50px;
+    padding-left: 20px;
+}
